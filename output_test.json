@@ -1,0 +1,95 @@
+{
+    "cpds": {
+        "AnewRootNode": [
+            0.5,
+            0.5
+        ],
+        "LEN_vision_1": [
+            [
+                0.7,
+                0.5,
+                0.5,
+                0.8
+            ],
+            [
+                0.3,
+                0.5,
+                0.5,
+                0.7
+            ]
+        ],
+        "LEN_vision_2": [
+            [
+                0.5,
+                0.5,
+                0.5,
+                0.5
+            ],
+            [
+                0.5,
+                0.5,
+                0.5,
+                0.5
+            ]
+        ],
+        "RON_2": [
+            0.5,
+            0.5
+        ]
+    },
+    "edges": [
+        [
+            "AnewRootNode",
+            "LEN_vision_1"
+        ],
+        [
+            "AnewRootNode",
+            "LEN_vision_2"
+        ],
+        [
+            "RON_2",
+            "LEN_vision_1"
+        ],
+        [
+            "RON_2",
+            "LEN_vision_2"
+        ]
+    ],
+    "header": {
+        "date": "Wed Feb 13 14:05:29 2019\n",
+        "description": "",
+        "frozen": true,
+        "identification": "output_test.json",
+        "train_from": ""
+    },
+    "nodes": {
+        "LAN": [],
+        "LEN": {
+            "EXT": [],
+            "INT": [],
+            "PRO": [
+                {
+                    "card": 2,
+                    "name": "LEN_vision_1"
+                },
+                {
+                    "card": 2,
+                    "name": "LEN_vision_2"
+                }
+            ]
+        },
+        "RON": {
+            "BEL": [
+                {
+                    "card": 2,
+                    "name": "RON_2"
+                },
+                {
+                    "card": 2,
+                    "name": "AnewRootNode"
+                }
+            ],
+            "MEM": []
+        }
+    }
+}

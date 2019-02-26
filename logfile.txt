@@ -1,0 +1,63 @@
+IN BN
+Number of active nodes      : 13
+Number of active root nodes : 5
+Number of leaf nodes         : 8
+Number of edges         : 23
+EDGES
+(RON_1 ,LEN_ennemy) (RON_1 ,LEN_food) (RON_1 ,LEN_motor_left) (RON_1 ,LEN_vision_1) (RON_1 ,LEN_vision_2) (RON_1 ,LEN_vision_3) (RON_2 ,LEN_food) (RON_2 ,LEN_motor_right) (RON_2 ,LEN_vision_1) (RON_2 ,LEN_vision_2) (RON_2 ,LEN_vision_4) (RON_3 ,LEN_ennemy) (RON_3 ,LEN_motor_right) (RON_3 ,LEN_vision_2) (RON_3 ,LEN_vision_4) (RON_4 ,LEN_ennemy) (RON_4 ,LEN_food) (RON_4 ,LEN_vision_1) (RON_4 ,LEN_vision_2) (RON_4 ,LEN_vision_3) (RON_5 ,LEN_ennemy) (RON_5 ,LEN_food) (RON_5 ,LEN_motor_left) 
+
+incoming edges for each leaf node :
+Leaf : LEN_ennemy
+RON_1 RON_3 RON_4 RON_5 
+Leaf : LEN_food
+RON_1 RON_2 RON_4 RON_5 
+Leaf : LEN_motor_left
+RON_1 RON_5 
+Leaf : LEN_motor_right
+RON_2 RON_3 
+Leaf : LEN_vision_1
+RON_1 RON_2 RON_4 
+Leaf : LEN_vision_2
+RON_1 RON_2 RON_3 RON_4 
+Leaf : LEN_vision_3
+RON_1 RON_4 
+Leaf : LEN_vision_4
+RON_2 RON_3 
+dictionary :
+LEN_ennemy 5
+LEN_food 6
+LEN_motor_left 7
+LEN_motor_right 8
+LEN_vision_1 9
+LEN_vision_2 10
+LEN_vision_3 11
+LEN_vision_4 12
+RON_1 0
+RON_2 1
+RON_3 2
+RON_4 3
+RON_5 4
+Adding edge (RON_1, LEN_ennemy)  <-> (0, 5
+Adding edge (RON_1, LEN_food)  <-> (0, 6
+Adding edge (RON_1, LEN_motor_left)  <-> (0, 7
+Adding edge (RON_1, LEN_vision_1)  <-> (0, 9
+Adding edge (RON_1, LEN_vision_2)  <-> (0, 10
+Adding edge (RON_1, LEN_vision_3)  <-> (0, 11
+Adding edge (RON_2, LEN_food)  <-> (1, 6
+Adding edge (RON_2, LEN_motor_right)  <-> (1, 8
+Adding edge (RON_2, LEN_vision_1)  <-> (1, 9
+Adding edge (RON_2, LEN_vision_2)  <-> (1, 10
+Adding edge (RON_2, LEN_vision_4)  <-> (1, 12
+Adding edge (RON_3, LEN_ennemy)  <-> (2, 5
+Adding edge (RON_3, LEN_motor_right)  <-> (2, 8
+Adding edge (RON_3, LEN_vision_2)  <-> (2, 10
+Adding edge (RON_3, LEN_vision_4)  <-> (2, 12
+Adding edge (RON_4, LEN_ennemy)  <-> (3, 5
+Adding edge (RON_4, LEN_food)  <-> (3, 6
+Adding edge (RON_4, LEN_vision_1)  <-> (3, 9
+Adding edge (RON_4, LEN_vision_2)  <-> (3, 10
+Adding edge (RON_4, LEN_vision_3)  <-> (3, 11
+Adding edge (RON_5, LEN_ennemy)  <-> (4, 5
+Adding edge (RON_5, LEN_food)  <-> (4, 6
+Adding edge (RON_5, LEN_motor_left)  <-> (4, 7
+alel edges addes  
